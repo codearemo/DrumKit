@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(https://belgradeatnight.com/wp-content/uploads/2014/08/Club-94-1.jpg);
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-y: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.sounds-row {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+
+.myClass {
+  flex: 1;
+  padding: 35px 40px;
+  margin: auto 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  transition: all 0.06s;
+}
+
+.playing {
+  border: 5px solid #ff0;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #ff0;
+}
+
+span {
+  color: #ff0;
+}
